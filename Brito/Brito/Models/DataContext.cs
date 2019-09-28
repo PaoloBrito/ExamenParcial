@@ -9,5 +9,7 @@ namespace Brito.Models
         {
 
         }
+
+        public System.Data.Entity.DbSet<Brito.Models.Clown> Clowns { get; set; }
     }
 }
